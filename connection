@@ -1,0 +1,23 @@
+# open a connection to a URL using urllib
+
+url =("https://data.cityofnewyork.us/resource/gx8w-pdsh.json?$limit=100&$offset=100&$where=pickup_datetime between '2017-01-10T12:00:00' and '2017-01-10T14:00:00'auth = ("'usal3i71x9lapvoj68vuejd5kx0er','Hnf6023qs1b3f8heg3stxcxr7fb4vy7d5nbuayccaen81eayd'")
+
+try:
+    conn = urllib.request.urlopen(url)
+except urllib.error.HTTPError as e:
+        #Return code error (e.g. 404,501...)
+        #...
+        print('HTTPError: {}'.format(e.code))
+except urllib.error.URLError as e:
+    # Not an HTTP-specific error (e.g. connection refused)
+    # ...
+    print('URLError: {}'.format(e.reason))
+    
+else:
+    # 200
+    # ...
+    print('good')
+    
+# print(x.read())
+# get the result code and print it
+# print("result code: " + str(webUrl.getcode()))
