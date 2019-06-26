@@ -1,0 +1,27 @@
+# New dictionary lists
+class = ['taxi']
+
+#class attribute
+type =['yellow','green','fhv']
+year = [2017,2018]
+
+# initializer / Instance attributes
+def_init_(self, type, year)
+  self.type = type
+  self.year = year
+  
+# Instantiate the Taxi object
+yellow17 = taxi("Yellow", 2017)
+yellow18 = taxi("Yellow", 2018)
+green17 = taxi("Green", 2017)
+green18 = taxi("Green", 2018)
+fhv17 = taxi("FHV", 2017)
+fhv18 = taxi("FHV", 2018)
+
+# instance method
+def description(self):
+return "{} {} is the analyzed dataset" .format(self.type, self.year)
+
+# instance method
+def description(self):
+return "{} {} is the analyzed dataset" .format(self.type, self.year)
