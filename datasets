@@ -1,0 +1,10 @@
+# Datasets
+
+# FHV 2018 https://data.cityofnewyork.us/resource/am94-epxh.json
+# Yellow 2018 https://data.cityofnewyork.us/resource/t29m-gskq.json
+# Yellow 2017 https://data.cityofnewyork.us/resource/biws-g3hs.json
+# FHV 2017 https://data.cityofnewyork.us/resource/gx8w-pdsh.json
+# Green 2017 https://data.cityofnewyork.us/resource/5gj9-2kzx.json
+# Green 2018 https://data.cityofnewyork.us/resource/w7fs-fd9i.json
+
+# https://data.cityofnewyork.us/resource/gx8w-pdsh.json?$limit=100&$offset=100&$where=pickup_datetime between '2017-01-10T12:00:00' and '2017-01-10T14:00:00'
